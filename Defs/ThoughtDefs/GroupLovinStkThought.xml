@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <defName>Stk_Mass_Lovin</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>10</stackLimit>
+    <stackedEffectMultiplier>0.6</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>got some lovin'</label>
+        <description>There's nothing like a tumble between the sheets to lift the mood.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

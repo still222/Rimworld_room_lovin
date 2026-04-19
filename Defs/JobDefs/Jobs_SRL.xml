@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <JobDef>
+    <defName>SRL_LovinDuoInitiator</defName>
+    <driverClass>SameRoomLovin.JobDriver_SRL_Lovin</driverClass>
+    <reportString>lovin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <joyKind>Social</joyKind>
+    <joyGainRate>0.33</joyGainRate>
+  </JobDef>
+  <JobDef>
+    <defName>SRL_LovinDuoPartner</defName>
+    <driverClass>SameRoomLovin.JobDriver_SRL_Lovin_Partner</driverClass>
+    <reportString>lovin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <joyKind>Social</joyKind>
+    <joyGainRate>0.33</joyGainRate>
+  </JobDef>
+
+  <JobDef>
+    <defName>SRL_LovinGroupInitiator</defName>
+    <driverClass>SameRoomLovin.JobDriver_SRL_Lovin_Group</driverClass>
+    <reportString>lovin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <joyKind>Social</joyKind>
+    <joyGainRate>0.33</joyGainRate>
+  </JobDef>
+  <JobDef>
+    <defName>SRL_LovinGroupPartner</defName>
+    <driverClass>SameRoomLovin.JobDriver_SRL_Lovin_Group_Partner</driverClass>
+    <reportString>lovin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <joyKind>Social</joyKind>
+    <joyGainRate>0.33</joyGainRate>
+  </JobDef>
+  <JobDef>
+    <defName>SRL_LovinGroupSupport</defName>
+    <driverClass>SameRoomLovin.JobDriver_SRL_Lovin_Group_Support</driverClass>
+    <reportString>lovin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <joyKind>Social</joyKind>
+    <joyGainRate>0.33</joyGainRate>
+  </JobDef>
+</Defs>

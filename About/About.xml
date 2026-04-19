@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>StK Room Lovin'</name>
+	<author>stk</author>
+	<modVersion>v3.22</modVersion>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>stk.SameRoomLovin</packageId>
+	<description>Complete rewrite of the original mod. Only some names left for compatability, code is completely new. More stable, more optimized, more features. 
+	
+No more Wi-Fi lovin' across the room, pawns actually gather to have some fun. Rebalanced to seemlesly fit vanilla mood. Optionally added some simple SFW animations and recreation bonus. Support for VRE Highmates and Intimacy mod.</description>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>LovelyDovey.Sex.WithEuterpe</li>
+	</loadAfter>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>

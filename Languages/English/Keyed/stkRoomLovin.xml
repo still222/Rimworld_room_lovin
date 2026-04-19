@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <StkSrlRecreationLabel>Recreation from Lovin'</StkSrlRecreationLabel>
+    <StkSrlRecreationDesc>Adds social type of joy to the lovin'.</StkSrlRecreationDesc>
+
+    <StkSrlAnimationsLabel>Lovin' Animations</StkSrlAnimationsLabel>
+    <StkSrlAnimationsDesc>If enabled, pawns will have a simple SFW animations attached to lovin'.</StkSrlAnimationsDesc>
+
+    <StkSrlGroupChance>Group Lovin' Chance: {0}%</StkSrlGroupChance>
+    <StkSrlMetalhorrorChance>Chance of spreading metalhorror infection through lovin`: {0}%</StkSrlMetalhorrorChance>
+
+    <StkMetalhorrorLovin>Implanted through lovin' by {SOURCE_nameDef}</StkMetalhorrorLovin>
+</LanguageData>

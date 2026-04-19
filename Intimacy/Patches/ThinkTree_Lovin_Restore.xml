@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThinkTreeDef[defName="Humanlike"]/thinkRoot[@Class="ThinkNode_Priority"]/subNodes/li[@Class="ThinkNode_ConditionalLyingDown"]/subNodes/li[@Class="ThinkNode_ChancePerHour_Lovin"]/subNodes/li[@Class="ThinkNode_Tagger"]/subNodes/li[@Class="JobGiver_DoLovin"]</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/ThinkTreeDef[defName="Humanlike"]/thinkRoot[@Class="ThinkNode_Priority"]/subNodes/li[@Class="ThinkNode_ConditionalLyingDown"]/subNodes/li[@Class="ThinkNode_ChancePerHour_Lovin"]/subNodes/li[@Class="ThinkNode_Tagger"]/subNodes</xpath>
+      <value>
+        <li Class="JobGiver_DoLovin" />
+      </value>
+    </nomatch>
+  </Operation>
+  
+</Patch>
